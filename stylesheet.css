@@ -1,0 +1,38 @@
+/* Styles for individual cells in the game grid */
+.grid-cell {
+    width: 60px; /* Set cell width */
+    height: 60px; /* Set cell height */
+    border: 1px solid #000; /* Add border around each cell */
+    display: flex; /* Use flexbox for centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    font-size: 20px; /* Set font size for X and O */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Styles for rows in the game grid */
+.grid-row {
+    display: flex; /* Display rows as flex containers */
+}
+
+/* Style for the game grid container */
+#gameGrid {
+    margin-bottom: 20px; /* Add space below the game grid */
+}
+
+/* Custom classes for centering the game content vertically */
+.vh-100 {
+    height: 100vh; /* Make the container fill the viewport height */
+}
+
+.d-flex {
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Center flex items vertically */
+    justify-content: center; /* Center flex items horizontally */
+}
+
+.flex-column {
+    flex-direction: column; /* Stack flex items vertically */
+}
+
+

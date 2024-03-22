@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-reboot.css"> <!-- link to bootstrap-->
+    <link rel="stylesheet" href="stylesheet.css">  <!-- link to css stylesheet -->
+</head>
+<body>
+   
+    <div class="vh-100 d-flex justify-content-center align-items-center"> <!-- main container -->
+        <div class="container mt-5 flex-column"><!-- container for game grid -->
+            <h2 id="playerTurn">X's Turn</h2> <!-- heading for player's turn -->
+    
+            <div id="gameGrid"> <!-- placeholder for game grid created with js -->
+               
+            </div>
+           
+            <button id="restartButton" class="btn btn-primary">Restart Game</button> <!-- restart button -->
+        </div>
+    </div>
+    
+    <script src="tttgame.js"></script> <!-- link to js file-->
+</body>
+</html>
+
